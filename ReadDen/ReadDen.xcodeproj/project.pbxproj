@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222189A42B1086A400455FFA /* ReadDenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189A32B1086A400455FFA /* ReadDenApp.swift */; };
+		222189A62B1086A400455FFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189A52B1086A400455FFA /* ContentView.swift */; };
+		222189A82B1086A500455FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222189A72B1086A500455FFA /* Assets.xcassets */; };
+		222189AB2B1086A500455FFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222189AA2B1086A500455FFA /* Preview Assets.xcassets */; };
+		222189B52B1086A500455FFA /* ReadBookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189B42B1086A500455FFA /* ReadBookStoreTests.swift */; };
+		222189BF2B1086A500455FFA /* ReadDenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189BE2B1086A500455FFA /* ReadDenUITests.swift */; };
+		222189C12B1086A500455FFA /* ReadDenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189C02B1086A500455FFA /* ReadDenUITestsLaunchTests.swift */; };
+		222189D02B10874800455FFA /* BooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189CF2B10874800455FFA /* BooksList.swift */; };
+		222189D22B108CFB00455FFA /* BooksStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189D12B108CFB00455FFA /* BooksStore.swift */; };
+		222189D42B108DE800455FFA /* Books-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222189D32B108DE800455FFA /* Books-Info.plist */; };
+		222189D62B10947900455FFA /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189D52B10947900455FFA /* BookView.swift */; };
+		222189DA2B12ABF800455FFA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189D92B12ABF800455FFA /* SettingsView.swift */; };
+		222189DC2B12ADF100455FFA /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189DB2B12ADF100455FFA /* BookListView.swift */; };
+		222189DE2B12BA1B00455FFA /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189DD2B12BA1B00455FFA /* MeetingsView.swift */; };
+		222189E02B12BAB000455FFA /* AddNewMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189DF2B12BAB000455FFA /* AddNewMeeting.swift */; };
+		222189E22B12BAD400455FFA /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189E12B12BAD400455FFA /* Meeting.swift */; };
+		222189E42B12C1F100455FFA /* MeetingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189E32B12C1F000455FFA /* MeetingStore.swift */; };
+		222189E62B132CF400455FFA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189E52B132CF400455FFA /* Constants.swift */; };
+		222189E82B1333DD00455FFA /* ReadBooksStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189E72B1333DD00455FFA /* ReadBooksStore.swift */; };
+		222189EA2B133B5400455FFA /* ReadBooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189E92B133B5400455FFA /* ReadBooksListView.swift */; };
+		222189EC2B1342F600455FFA /* ReadBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189EB2B1342F600455FFA /* ReadBookView.swift */; };
+		222189EF2B142DFA00455FFA /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189EE2B142DFA00455FFA /* StartButtonView.swift */; };
+		222189F12B142F6900455FFA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222189F02B142F6900455FFA /* OnBoardingView.swift */; };
+		222189F32B14424500455FFA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222189F22B14424500455FFA /* Launch Screen.storyboard */; };
+		222189F62B14687600455FFA /* NewYorkItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222189F42B14687600455FFA /* NewYorkItalic.ttf */; };
+		222189F72B14687600455FFA /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222189F52B14687600455FFA /* NewYork.ttf */; };
+		222189FA2B1468BE00455FFA /* SF-Pro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222189F82B1468BE00455FFA /* SF-Pro-Italic.ttf */; };
+		222189FB2B1468BE00455FFA /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222189F92B1468BE00455FFA /* SF-Pro.ttf */; };
+		2232382F2B172FE7009A5996 /* MeetingStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2232382E2B172FE7009A5996 /* MeetingStoreTests.swift */; };
+		223238312B1734E7009A5996 /* AsynchronousTestCaseBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223238302B1734E7009A5996 /* AsynchronousTestCaseBooks.swift */; };
+		223238332B173EE5009A5996 /* BookStoreAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223238322B173EE5009A5996 /* BookStoreAPITests.swift */; };
+		223EA2362B15D369001ED689 /* BookListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EA2352B15D369001ED689 /* BookListRowView.swift */; };
+		223EA2382B15D42B001ED689 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EA2372B15D42B001ED689 /* BookDetailsView.swift */; };
+		223EA23A2B15D4CD001ED689 /* ReadBookRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EA2392B15D4CD001ED689 /* ReadBookRatingView.swift */; };
+		223EA23C2B15D54B001ED689 /* AddMeetingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EA23B2B15D54B001ED689 /* AddMeetingButton.swift */; };
+		223EA23E2B15D5EE001ED689 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EA23D2B15D5EE001ED689 /* ContentTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222189B12B1086A500455FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222189982B1086A400455FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2221899F2B1086A400455FFA;
+			remoteInfo = ReadDen;
+		};
+		222189BB2B1086A500455FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222189982B1086A400455FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2221899F2B1086A400455FFA;
+			remoteInfo = ReadDen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222189A02B1086A400455FFA /* ReadDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222189A32B1086A400455FFA /* ReadDenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDenApp.swift; sourceTree = "<group>"; };
+		222189A52B1086A400455FFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		222189A72B1086A500455FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222189AA2B1086A500455FFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		222189B02B1086A500455FFA /* ReadDenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadDenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222189B42B1086A500455FFA /* ReadBookStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBookStoreTests.swift; sourceTree = "<group>"; };
+		222189BA2B1086A500455FFA /* ReadDenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadDenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222189BE2B1086A500455FFA /* ReadDenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDenUITests.swift; sourceTree = "<group>"; };
+		222189C02B1086A500455FFA /* ReadDenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		222189CF2B10874800455FFA /* BooksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksList.swift; sourceTree = "<group>"; };
+		222189D12B108CFB00455FFA /* BooksStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksStore.swift; sourceTree = "<group>"; };
+		222189D32B108DE800455FFA /* Books-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Books-Info.plist"; sourceTree = "<group>"; };
+		222189D52B10947900455FFA /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		222189D92B12ABF800455FFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		222189DB2B12ADF100455FFA /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		222189DD2B12BA1B00455FFA /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
+		222189DF2B12BAB000455FFA /* AddNewMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMeeting.swift; sourceTree = "<group>"; };
+		222189E12B12BAD400455FFA /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		222189E32B12C1F000455FFA /* MeetingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStore.swift; sourceTree = "<group>"; };
+		222189E52B132CF400455FFA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		222189E72B1333DD00455FFA /* ReadBooksStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBooksStore.swift; sourceTree = "<group>"; };
+		222189E92B133B5400455FFA /* ReadBooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBooksListView.swift; sourceTree = "<group>"; };
+		222189EB2B1342F600455FFA /* ReadBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBookView.swift; sourceTree = "<group>"; };
+		222189ED2B14174000455FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		222189EE2B142DFA00455FFA /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		222189F02B142F6900455FFA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		222189F22B14424500455FFA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		222189F42B14687600455FFA /* NewYorkItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYorkItalic.ttf; sourceTree = "<group>"; };
+		222189F52B14687600455FFA /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.ttf; sourceTree = "<group>"; };
+		222189F82B1468BE00455FFA /* SF-Pro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Italic.ttf"; sourceTree = "<group>"; };
+		222189F92B1468BE00455FFA /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		2232382D2B171F74009A5996 /* ReadDen.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadDen.xctestplan; sourceTree = "<group>"; };
+		2232382E2B172FE7009A5996 /* MeetingStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStoreTests.swift; sourceTree = "<group>"; };
+		223238302B1734E7009A5996 /* AsynchronousTestCaseBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTestCaseBooks.swift; sourceTree = "<group>"; };
+		223238322B173EE5009A5996 /* BookStoreAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreAPITests.swift; sourceTree = "<group>"; };
+		223EA2352B15D369001ED689 /* BookListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRowView.swift; sourceTree = "<group>"; };
+		223EA2372B15D42B001ED689 /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		223EA2392B15D4CD001ED689 /* ReadBookRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBookRatingView.swift; sourceTree = "<group>"; };
+		223EA23B2B15D54B001ED689 /* AddMeetingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingButton.swift; sourceTree = "<group>"; };
+		223EA23D2B15D5EE001ED689 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2221899D2B1086A400455FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189AD2B1086A500455FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189B72B1086A500455FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222189972B1086A400455FFA = {
+			isa = PBXGroup;
+			children = (
+				2232382D2B171F74009A5996 /* ReadDen.xctestplan */,
+				222189A22B1086A400455FFA /* ReadDen */,
+				222189B32B1086A500455FFA /* ReadDenTests */,
+				222189BD2B1086A500455FFA /* ReadDenUITests */,
+				222189A12B1086A400455FFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222189A12B1086A400455FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222189A02B1086A400455FFA /* ReadDen.app */,
+				222189B02B1086A500455FFA /* ReadDenTests.xctest */,
+				222189BA2B1086A500455FFA /* ReadDenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222189A22B1086A400455FFA /* ReadDen */ = {
+			isa = PBXGroup;
+			children = (
+				222189ED2B14174000455FFA /* Info.plist */,
+				222189A32B1086A400455FFA /* ReadDenApp.swift */,
+				222189FC2B1468D800455FFA /* Font */,
+				222189CE2B1086EA00455FFA /* Models */,
+				222189CD2B1086D700455FFA /* Views */,
+				222189A72B1086A500455FFA /* Assets.xcassets */,
+				222189A92B1086A500455FFA /* Preview Content */,
+				222189D32B108DE800455FFA /* Books-Info.plist */,
+				222189E52B132CF400455FFA /* Constants.swift */,
+				222189F22B14424500455FFA /* Launch Screen.storyboard */,
+			);
+			path = ReadDen;
+			sourceTree = "<group>";
+		};
+		222189A92B1086A500455FFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				222189AA2B1086A500455FFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		222189B32B1086A500455FFA /* ReadDenTests */ = {
+			isa = PBXGroup;
+			children = (
+				222189B42B1086A500455FFA /* ReadBookStoreTests.swift */,
+				2232382E2B172FE7009A5996 /* MeetingStoreTests.swift */,
+				223238302B1734E7009A5996 /* AsynchronousTestCaseBooks.swift */,
+				223238322B173EE5009A5996 /* BookStoreAPITests.swift */,
+			);
+			path = ReadDenTests;
+			sourceTree = "<group>";
+		};
+		222189BD2B1086A500455FFA /* ReadDenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222189BE2B1086A500455FFA /* ReadDenUITests.swift */,
+				222189C02B1086A500455FFA /* ReadDenUITestsLaunchTests.swift */,
+			);
+			path = ReadDenUITests;
+			sourceTree = "<group>";
+		};
+		222189CD2B1086D700455FFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				222189F02B142F6900455FFA /* OnBoardingView.swift */,
+				222189EE2B142DFA00455FFA /* StartButtonView.swift */,
+				222189A52B1086A400455FFA /* ContentView.swift */,
+				223EA23D2B15D5EE001ED689 /* ContentTabView.swift */,
+				222189DB2B12ADF100455FFA /* BookListView.swift */,
+				223EA2352B15D369001ED689 /* BookListRowView.swift */,
+				222189D52B10947900455FFA /* BookView.swift */,
+				223EA2372B15D42B001ED689 /* BookDetailsView.swift */,
+				222189E92B133B5400455FFA /* ReadBooksListView.swift */,
+				222189EB2B1342F600455FFA /* ReadBookView.swift */,
+				223EA2392B15D4CD001ED689 /* ReadBookRatingView.swift */,
+				222189DD2B12BA1B00455FFA /* MeetingsView.swift */,
+				223EA23B2B15D54B001ED689 /* AddMeetingButton.swift */,
+				222189DF2B12BAB000455FFA /* AddNewMeeting.swift */,
+				222189D92B12ABF800455FFA /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		222189CE2B1086EA00455FFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				222189CF2B10874800455FFA /* BooksList.swift */,
+				222189D12B108CFB00455FFA /* BooksStore.swift */,
+				222189E72B1333DD00455FFA /* ReadBooksStore.swift */,
+				222189E12B12BAD400455FFA /* Meeting.swift */,
+				222189E32B12C1F000455FFA /* MeetingStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		222189FC2B1468D800455FFA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				222189F52B14687600455FFA /* NewYork.ttf */,
+				222189F82B1468BE00455FFA /* SF-Pro-Italic.ttf */,
+				222189F92B1468BE00455FFA /* SF-Pro.ttf */,
+				222189F42B14687600455FFA /* NewYorkItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2221899F2B1086A400455FFA /* ReadDen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222189C42B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDen" */;
+			buildPhases = (
+				223EA23F2B15DC0F001ED689 /* ShellScript */,
+				2221899C2B1086A400455FFA /* Sources */,
+				2221899D2B1086A400455FFA /* Frameworks */,
+				2221899E2B1086A400455FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadDen;
+			productName = ReadDen;
+			productReference = 222189A02B1086A400455FFA /* ReadDen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222189AF2B1086A500455FFA /* ReadDenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222189C72B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDenTests" */;
+			buildPhases = (
+				222189AC2B1086A500455FFA /* Sources */,
+				222189AD2B1086A500455FFA /* Frameworks */,
+				222189AE2B1086A500455FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222189B22B1086A500455FFA /* PBXTargetDependency */,
+			);
+			name = ReadDenTests;
+			productName = ReadDenTests;
+			productReference = 222189B02B1086A500455FFA /* ReadDenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		222189B92B1086A500455FFA /* ReadDenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222189CA2B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDenUITests" */;
+			buildPhases = (
+				222189B62B1086A500455FFA /* Sources */,
+				222189B72B1086A500455FFA /* Frameworks */,
+				222189B82B1086A500455FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222189BC2B1086A500455FFA /* PBXTargetDependency */,
+			);
+			name = ReadDenUITests;
+			productName = ReadDenUITests;
+			productReference = 222189BA2B1086A500455FFA /* ReadDenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222189982B1086A400455FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2221899F2B1086A400455FFA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					222189AF2B1086A500455FFA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2221899F2B1086A400455FFA;
+					};
+					222189B92B1086A500455FFA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2221899F2B1086A400455FFA;
+					};
+				};
+			};
+			buildConfigurationList = 2221899B2B1086A400455FFA /* Build configuration list for PBXProject "ReadDen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222189972B1086A400455FFA;
+			productRefGroup = 222189A12B1086A400455FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2221899F2B1086A400455FFA /* ReadDen */,
+				222189AF2B1086A500455FFA /* ReadDenTests */,
+				222189B92B1086A500455FFA /* ReadDenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2221899E2B1086A400455FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222189F72B14687600455FFA /* NewYork.ttf in Resources */,
+				222189AB2B1086A500455FFA /* Preview Assets.xcassets in Resources */,
+				222189D42B108DE800455FFA /* Books-Info.plist in Resources */,
+				222189F62B14687600455FFA /* NewYorkItalic.ttf in Resources */,
+				222189F32B14424500455FFA /* Launch Screen.storyboard in Resources */,
+				222189FB2B1468BE00455FFA /* SF-Pro.ttf in Resources */,
+				222189A82B1086A500455FFA /* Assets.xcassets in Resources */,
+				222189FA2B1468BE00455FFA /* SF-Pro-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189AE2B1086A500455FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189B82B1086A500455FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223EA23F2B15DC0F001ED689 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2221899C2B1086A400455FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222189DA2B12ABF800455FFA /* SettingsView.swift in Sources */,
+				222189D02B10874800455FFA /* BooksList.swift in Sources */,
+				222189F12B142F6900455FFA /* OnBoardingView.swift in Sources */,
+				223EA2382B15D42B001ED689 /* BookDetailsView.swift in Sources */,
+				222189A62B1086A400455FFA /* ContentView.swift in Sources */,
+				223EA2362B15D369001ED689 /* BookListRowView.swift in Sources */,
+				223EA23A2B15D4CD001ED689 /* ReadBookRatingView.swift in Sources */,
+				222189E02B12BAB000455FFA /* AddNewMeeting.swift in Sources */,
+				223EA23E2B15D5EE001ED689 /* ContentTabView.swift in Sources */,
+				222189D22B108CFB00455FFA /* BooksStore.swift in Sources */,
+				222189EF2B142DFA00455FFA /* StartButtonView.swift in Sources */,
+				222189A42B1086A400455FFA /* ReadDenApp.swift in Sources */,
+				222189E62B132CF400455FFA /* Constants.swift in Sources */,
+				222189E42B12C1F100455FFA /* MeetingStore.swift in Sources */,
+				222189DE2B12BA1B00455FFA /* MeetingsView.swift in Sources */,
+				222189E22B12BAD400455FFA /* Meeting.swift in Sources */,
+				222189EA2B133B5400455FFA /* ReadBooksListView.swift in Sources */,
+				222189D62B10947900455FFA /* BookView.swift in Sources */,
+				222189E82B1333DD00455FFA /* ReadBooksStore.swift in Sources */,
+				222189DC2B12ADF100455FFA /* BookListView.swift in Sources */,
+				222189EC2B1342F600455FFA /* ReadBookView.swift in Sources */,
+				223EA23C2B15D54B001ED689 /* AddMeetingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189AC2B1086A500455FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222189B52B1086A500455FFA /* ReadBookStoreTests.swift in Sources */,
+				2232382F2B172FE7009A5996 /* MeetingStoreTests.swift in Sources */,
+				223238312B1734E7009A5996 /* AsynchronousTestCaseBooks.swift in Sources */,
+				223238332B173EE5009A5996 /* BookStoreAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222189B62B1086A500455FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222189C12B1086A500455FFA /* ReadDenUITestsLaunchTests.swift in Sources */,
+				222189BF2B1086A500455FFA /* ReadDenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222189B22B1086A500455FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2221899F2B1086A400455FFA /* ReadDen */;
+			targetProxy = 222189B12B1086A500455FFA /* PBXContainerItemProxy */;
+		};
+		222189BC2B1086A500455FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2221899F2B1086A400455FFA /* ReadDen */;
+			targetProxy = 222189BB2B1086A500455FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		222189C22B1086A500455FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222189C32B1086A500455FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222189C52B1086A500455FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReadDen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadDen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222189C62B1086A500455FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReadDen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadDen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		222189C82B1086A500455FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadDen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReadDen";
+			};
+			name = Debug;
+		};
+		222189C92B1086A500455FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadDen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReadDen";
+			};
+			name = Release;
+		};
+		222189CB2B1086A500455FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadDen;
+			};
+			name = Debug;
+		};
+		222189CC2B1086A500455FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.shashank.ReadDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadDen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2221899B2B1086A400455FFA /* Build configuration list for PBXProject "ReadDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222189C22B1086A500455FFA /* Debug */,
+				222189C32B1086A500455FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222189C42B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222189C52B1086A500455FFA /* Debug */,
+				222189C62B1086A500455FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222189C72B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222189C82B1086A500455FFA /* Debug */,
+				222189C92B1086A500455FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222189CA2B1086A500455FFA /* Build configuration list for PBXNativeTarget "ReadDenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222189CB2B1086A500455FFA /* Debug */,
+				222189CC2B1086A500455FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222189982B1086A400455FFA /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "3FAAED36-C9CC-47A5-9CB3-0FCC9D9EFA51",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ReadDen.xcodeproj",
+      "identifier" : "2221899F2B1086A400455FFA",
+      "name" : "ReadDen"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ReadDen.xcodeproj",
+        "identifier" : "222189AF2B1086A500455FFA",
+        "name" : "ReadDenTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ReadDen.xcodeproj",
+        "identifier" : "222189B92B1086A500455FFA",
+        "name" : "ReadDenUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
